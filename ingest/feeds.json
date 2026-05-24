@@ -1,12 +1,18 @@
 [
-  { "url": "https://www.infobae.com/feeds/rss/", "category": "Política AR" },
-  { "url": "https://www.cronista.com/files/rss/economia.xml", "category": "Mercados" },
-  { "url": "https://www.ambito.com/contenidos/economia.xml", "category": "Mercados" },
-  { "url": "https://feeds.bloomberg.com/markets/news.rss", "category": "Mercados" },
-  { "url": "https://feeds.bbci.co.uk/news/world/rss.xml", "category": "Mundo" },
-  { "url": "https://feeds.reuters.com/Reuters/worldNews", "category": "Mundo" },
-  { "url": "https://techcrunch.com/feed/", "category": "IA & Tech" },
-  { "url": "https://www.theverge.com/rss/index.xml", "category": "IA & Tech" },
-  { "url": "https://www.wired.com/feed/rss", "category": "IA & Tech" },
-  { "url": "https://www.pagina12.com.ar/rss/portada", "category": "Cultura" }
+  { "url": "https://www.clarin.com/rss/politica/",            "category": "Política AR" },
+  { "url": "https://www.lanacion.com.ar/arc/outboundfeeds/rss/category/politica/?outputType=xml", "category": "Política AR" },
+  { "url": "https://www.perfil.com/feed",                     "category": "Política AR" },
+
+  { "url": "https://www.clarin.com/rss/economia/",            "category": "Mercados" },
+  { "url": "https://feeds.bloomberg.com/markets/news.rss",    "category": "Mercados" },
+  { "url": "https://feeds.bloomberg.com/economics/news.rss",  "category": "Mercados" },
+
+  { "url": "https://feeds.bbci.co.uk/news/world/rss.xml",     "category": "Mundo" },
+  { "url": "https://feeds.bbci.co.uk/mundo/rss.xml",          "category": "Mundo" },
+
+  { "url": "https://techcrunch.com/feed/",                    "category": "IA & Tech" },
+  { "url": "https://www.theverge.com/rss/index.xml",          "category": "IA & Tech" },
+  { "url": "https://www.wired.com/feed/rss",                  "category": "IA & Tech" },
+
+  { "url": "https://www.clarin.com/rss/cultura/",             "category": "Cultura" }
 ]

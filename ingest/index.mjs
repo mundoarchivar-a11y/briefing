@@ -14,7 +14,7 @@ if (!SUPABASE_URL || !SUPABASE_SERVICE_KEY || !GEMINI_API_KEY) {
 
 const sb = createClient(SUPABASE_URL, SUPABASE_SERVICE_KEY, { auth: { persistSession: false } });
 const genai = new GoogleGenerativeAI(GEMINI_API_KEY);
-const model = genai.getGenerativeModel({ model: 'gemini-1.5-flash' });
+const model = genai.getGenerativeModel({ model: 'gemini-2.0-flash' });
 const parser = new Parser({ timeout: 15000, headers: { 'User-Agent': 'BriefingBot/1.0' } });
 
 const MAX_AGE_HOURS = 24;
@@ -83,7 +83,7 @@ async function ingestFeed({ url, category }) {
       if (error) throw error;
       console.log(`  ✓ ${it.title.slice(0, 70)}`);
     } catch (e) {
-      console.log(`  ✗ ${e.message?.slice(0, 100)}`);
+      console.log(`  ✗ ${(e.message || String(e)).slice(0, 300)}`);
     }
     await new Promise(r => setTimeout(r, PAUSE_MS));
   }
