@@ -1,0 +1,14 @@
+{
+  "name": "briefing-ingest",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@supabase/supabase-js": "^2.45.4",
+    "rss-parser": "^3.13.0"
+  }
+}

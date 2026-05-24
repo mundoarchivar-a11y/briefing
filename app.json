@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Briefing",
+    "slug": "briefing",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "briefing",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.briefing.app"
+    },
+    "android": {
+      "package": "com.briefing.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#0c0c10",
+        "foregroundImage": "./assets/icon.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
